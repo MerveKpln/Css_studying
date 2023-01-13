@@ -1,0 +1,43 @@
+* {
+  font-size: 1.3rem;
+}
+body {
+  background-color: azure;
+}
+
+.anasayfa {
+  background-color: thistle;
+}
+
+p.anasayfa {
+  background-color: blue;
+}
+
+.iletisim {
+  background-color: beige;
+}
+
+.personel {
+  background-color: wheat;
+}
+
+#anaorta {
+  background-color: aquamarine;
+}
+
+#iletisimOrta {
+  background-color: yellowgreen;
+}
+
+#personelOrta {
+  background-color: black;
+}
+
+P {
+  color: crimson;
+  text-align: center;
+}
+ul {
+  text-align: center;
+  background-color: blanchedalmond;
+}

@@ -1,0 +1,15 @@
+nav {
+  width: 300px;
+  background-color: gainsboro;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.anasayfa {
+  background-color: rgb(148, 140, 140);
+  color: whitesmoke;
+}
