@@ -1,0 +1,28 @@
+nav.menu {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  background-color: rgb(159, 159, 159);
+  width: 300px;
+}
+nav.menu ul {
+  padding: 1rem;
+  list-style-position: inside;
+  list-style-type: square;
+}
+nav.menu a {
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  padding: 0 0.5rem;
+}
+nav.menu a:visited {
+  color: black;
+}
+
+nav.menu a:hover {
+  color: rgb(170, 88, 246);
+  background-color: aquamarine;
+}
+nav.menu li {
+  padding: 0.3rem;
+}

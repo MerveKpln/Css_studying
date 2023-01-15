@@ -1,0 +1,17 @@
+:root {
+  --color1: red;
+  --color2: blue;
+  --color3: rgb(244, 130, 130);
+  --color4: rgb(120, 120, 245);
+}
+.baslik {
+  background-color: var(--color3);
+  color: var(--color2);
+}
+
+.blok {
+  color: var(--color1);
+
+  padding: 1rem;
+  font-size: 1.3rem;
+}

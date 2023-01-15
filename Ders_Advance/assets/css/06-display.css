@@ -1,0 +1,14 @@
+.inln {
+  display: inline;
+}
+.blck {
+  display: block;
+}
+.hello {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 3rem;
+}
+.about {
+  display: none;
+}
