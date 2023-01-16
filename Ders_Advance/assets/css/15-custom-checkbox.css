@@ -1,7 +1,9 @@
 .custom-checkbox {
   user-select: none;
 }
-
+.custom-checkbox label {
+  cursor: pointer;
+}
 .custom-checkbox input[type="checkbox"] {
   display: none;
 }
