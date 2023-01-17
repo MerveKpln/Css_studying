@@ -1,0 +1,50 @@
+.input-grup1 {
+  display: inline-block;
+  position: relative;
+}
+.input-grup1 input {
+  border: 1px solid gray;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.input-grup1 input:focus {
+  outline: 1px solid red;
+  border: 1px solid red;
+}
+.input-grup1 i {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 1.2rem;
+}
+/* 2. sekil*/
+.input-grup2 {
+  display: inline-block;
+  position: relative;
+}
+.input-grup2 input {
+  padding: 0.5rem 4rem 0.5rem 1rem;
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: 5rem;
+}
+.input-grup2 input:focus {
+  outline: 1px solid rgb(2, 2, 96);
+  border: 1px solid rgb(2, 2, 96);
+}
+.input-grup2 button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5rem;
+  border: 1px solid rgb(58, 58, 58);
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(84, 82, 82),
+    rgb(162, 162, 162)
+  );
+}
+.input-grup2 button:hover {
+  background-image: linear-gradient(to top, gray, rgb(162, 162, 162));
+}
