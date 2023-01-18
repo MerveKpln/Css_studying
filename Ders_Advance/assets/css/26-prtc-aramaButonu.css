@@ -14,8 +14,9 @@
 .input-grup1 i {
   position: absolute;
   right: 10px;
-  top: 5px;
+  top: 50%;
   font-size: 1.2rem;
+  transform: translateY(-50%);
 }
 /* 2. sekil*/
 .input-grup2 {
