@@ -1,0 +1,39 @@
+/*Baslik1*/
+.baslik1 {
+  color: green;
+}
+
+/*Baslik2*/
+.baslik2 {
+  color: green;
+}
+
+/*Baslik3*/
+.baslik3 {
+  color: green;
+}
+
+/* Baslik4 */
+.baslik4 {
+  color: red;
+}
+h2 {
+  color: gold;
+}
+h2.baslik4 {
+  color: blue;
+}
+* {
+  color: white;
+}
+
+/* Kutu1 */
+.kutu1 {
+  background-color: red;
+}
+div {
+  background-color: pink;
+}
+div.kutu1 {
+  background-color: bisque;
+}
