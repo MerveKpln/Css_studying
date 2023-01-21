@@ -1,0 +1,22 @@
+h1 {
+  margin: 0.5rem;
+}
+
+table.number-list tbody tr td {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.number-list tr:first-child {
+  font-weight: bold;
+}
+.number-list tr td:nth-child(10) {
+  color: red;
+}
+
+.number-list tbody tr:nth-child(odd) {
+  background-color: aquamarine;
+}
+.number-list tr:nth-child(even) {
+  background-color: rgb(207, 250, 246);
+}

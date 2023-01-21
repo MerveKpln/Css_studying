@@ -1,0 +1,49 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+nav.menu ul {
+  list-style: "~";
+  padding: 1rem;
+  background-color: bisque;
+  margin: 0;
+}
+
+nav.menu ul li {
+  margin: 1rem;
+  background-color: wheat;
+}
+
+nav.menu a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+nav.menu a:hover {
+  color: cadetblue;
+  text-decoration: underline;
+  background-color: rgb(208, 235, 236);
+  padding: 0.3rem;
+}
+/* izalama*/
+.kutu1 span,
+.kutu2 {
+  background-color: wheat;
+  padding: 1rem;
+}
+.kutu1 {
+  text-align: center;
+  /*ortamalamak icin parenta verdik*/
+}
+.kutu3 {
+  background-color: goldenrod;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+}
+.kutu4 {
+  background-color: goldenrod;
+  width: 150px;
+  text-align: center;
+  margin-right: 3px;
+  margin-left: auto;
+}

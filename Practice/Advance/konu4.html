@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/konu4.css" />
+  </head>
+  <body>
+    <!--
+      DEFAULT olarak
+      INLINE: span, a, em, b, i, strong, mark, u, del, img
+              inline elementler sadece içeriklerinin ebatları kadar yer kaplarlar
+              Ancak width, height ile dikey margin ve padding alamazlar
+
+      BLOCK: p, hx, div, table, ul, ol, li, nav, tr, form, hr 
+              tüm satırı kaplarlar. width, height, padding ve margin konusunda bir kısıtları yoktur
+
+      *Before after default degeri inlinedir
+    -->
+    <ul>
+      <li>
+        <a href="../Temel ders/anasayfa.html" style="color: black"
+          >Anasayfa`ya don</a
+        >
+      </li>
+    </ul>
+    <div class="inline">
+      <h2>Display:Inline</h2>
+      <div>Lorem, ipsum.</div>
+      <div>Sunt, error?</div>
+      <div>Velit, assumenda.</div>
+      <div>Quos, debitis.</div>
+      <div>Assumenda, distinctio!</div>
+    </div>
+
+    <div class="block">
+      <h2>Display:Block</h2>
+      <span>Lorem, ipsum.</span>
+      <span>Sunt, error?</span>
+      <span>Velit, assumenda.</span>
+      <span>Quos, debitis.</span>
+      <span>Assumenda, distinctio!</span>
+    </div>
+
+    <div class="inline-block">
+      <h2>Display:Inline-block</h2>
+      <div>Lorem, ipsum.</div>
+      <div>Sunt, error?</div>
+      <div>Velit, assumenda.</div>
+      <div>Quos, debitis.</div>
+      <div>Assumenda, distinctio!</div>
+    </div>
+  </body>
+</html>
