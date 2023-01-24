@@ -3,7 +3,7 @@
 }
 nav.menu ul {
   list-style: "~";
-  padding: 1rem;
+  padding: 5rem;
   background-color: bisque;
   margin: 0;
 }
@@ -24,7 +24,7 @@ nav.menu a:hover {
   background-color: rgb(208, 235, 236);
   padding: 0.3rem;
 }
-/* izalama*/
+/* hizalama*/
 .kutu1 span,
 .kutu2 {
   background-color: wheat;
